@@ -1,0 +1,235 @@
+# [ Noise ]
+
+# #
+ads.linkedin.com
+analytics.pointdrive.linkedin.com
+
+#
+avatars.mds.yandex.net
+www.avatars.mds.yandex.net
+appmetrica.yandex.com
+analytics.mobile.yandex.net
+/avatars.(.*[a-z]){3}.yandex.net/
+
+# [ Malware Domain ]
+
+# Src: https://www.r-tec.net/r-tec-blog-when-hackers-hack-the-hackers.html
+/(^|^.*\.)servehttp.com$/
+adsense.servehttp.com
+nuget.servehttp.com
+
+# Source: https://mobile.twitter.com/stephenlacy/status/1554697077430505473
+# ovz1.j19544519.pr46m.vps.myjino.ru
+/(^|^.*\.)myjino.ru$/
+
+# SMS Scam
+/(^|^.*\.)szqdn.com$/
+/(^|^.*\.)jsgqsb.com$/
+/(^|^.*\.)programinfos.com$/
+
+# https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/microsoft-encrypted-restricted-permission-messages-deliver-phishing/
+/(^|^.*\.)fmsbscotland.us$/
+/(^|^.*\.)taluspays.us$/
+/(^|^.*\.)chambless-math.com$/
+
+# CapraTube
+# https://www.sentinelone.com/labs/capratube-transparent-tribes-caprarat-mimics-youtube-to-hijack-android-phones/
+/(^|^.*\.)claudfront.net$/
+/(^|^.*\.)ptzbubble.shop$/
+/(^|^.*\.)allowlisted.net$/
+
+# https://citizenlab.ca/2023/09/predator-in-the-wires-ahmed-eltantawy-targeted-with-predator-spyware-after-announcing-presidential-ambitions/
+/(^|^.*\.)sec-flare.com$/
+/(^|^.*\.)verifyurl.me$/
+
+# https://securelist.ru/backdoored-free-download-manager-linux-malware/107924/
+/(^|^.*\.)fdmpkg.org$/
+
+# https://arstechnica.com/security/2023/10/google-hosted-malvertising-leads-to-fake-keepass-site-that-looks-genuine/amp/
+/(^|^.*\.)ķeepass.info$/
+
+# https://securelist.com/triangulation-validators-modules/110847/
+/(^|^.*\.)backuprabbit.com$/
+
+# https://blog.talosintelligence.com/attributing-yorotrooper/
+/(^|^.*\.)az-link.email$/
+/(^|^.*\.)tpp.tj$/
+/(^|^.*\.)mail-ru.link$/
+
+# https://securelist.ru/spyware-whatsapp-mod/108323/
+/(^|^.*\.)whatsagold.app$/
+/(^|^.*\.)watsabplusgold.com$/
+/(^|^.*\.)whatsgold.app$/
+/(^|^.*\.)3ssem.com$/
+/(^|^.*\.)goldnwhats.app$/
+/(^|^.*\.)omarwhats.app$/
+
+# https://blog.aquasec.com/loony-tunables-vulnerability-exploited-by-kinsing
+/(^|^.*\.)haxx.in$/
+
+# LummaC2 stealer - https://outpost24.com/blog/lummac2-anti-sandbox-technique-trigonometry-human-detection/
+/(^|^.*\.)curtainjors.fun$/
+/(^|^.*\.)gogobad.fun$/
+/(^|^.*\.)superyupp.fun$/
+
+# Royal Ransomware - https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a
+/(^|^.*\.)sombrat.com$/
+/(^|^.*\.)gororama.com$/
+/(^|^.*\.)softeruplive.com$/
+/(^|^.*\.)altocloudzone.live$/
+/(^|^.*\.)ciborkumari.xyz$/
+/(^|^.*\.)myappearinc.com$/
+/(^|^.*\.)parkerpublic.com$/
+/(^|^.*\.)tumbleproperty.com$/
+
+# https://securelist.ru/trojan-proxy-for-macos/108460/
+/(^|^.*\.)akamaized.ca$/
+
+# https://reasonlabs.com/research/the-cashback-extension-kille
+/(^|^.*\.)t-oapp.ru$/
+/(^|^.*\.)my-panel.ru$/
+/(^|^.*\.)netplus-vpn.ru$/
+
+# [Lumma Variant] https://www.fortinet.com/blog/threat-research/lumma-variant-on-youtube
+/(^|^.*\.)netovrema.pw$/
+/(^|^.*\.)opposesicknessopw.pw$/
+/(^|^.*\.)politefrightenpowoa.pw$/
+/(^|^.*\.)chincenterblandwka.pw$/
+
+# KazPost Scam
+/(^|^.*\.)post-serviceskz.top$/
+
+# KazEgov Scam
+# https://t.me/securixy_kz/820
+/(^|^.*\.)oneindia.info$/
+/(^|^.*\.)jretail.co.uk$/
+/(^|^.*\.)egov-kz.online$/
+
+# Pelmeni wrapper -https://lab52.io/blog/pelmeni-wrapper-new-wrapper-of-kazuar-turla-backdoor/
+/(^|^.*\.)sam-maintenance.com$/
+/(^|^.*\.)bibliotecaunicef.uy$/
+/(^|^.*\.)altavista[.]rs$/
+
+# WogRAT Malware Exploits aNotepad
+# https://asec.ahnlab.com/en/62446/
+/(^|^.*\.)linuxwork.net$/
+/(^|^.*\.)t0rguard.net$/
+/(^|^.*\.)newujs.com$/
+/(^|^.*\.)domaiso.com$/
+/(^|^.*\.)jp.anotepad.com$/
+
+# Bing ad for NordVPN leads to SecTopRAT
+# https://www.malwarebytes.com/blog/threat-intelligence/2024/04/bing-ad-for-nordvpn-leads-to-sectoprat
+/(^|^.*\.)nordivpn.xyz$/
+/(^|^.*\.)besthord-vpn.com$/
+
+# Rhadamanthys Stealer
+# https://www.proofpoint.com/us/blog/threat-insight/security-brief-ta547-targets-german-organizations-rhadamanthys-stealer
+/(^|^.*\.)bolibachan.com$/
+/(^|^.*\.)indscpm.xyz$/
+/(^|^.*\.)metro-delivery.com$/
+
+# Trusted Brands and Sponsored Google Ads to Distribute MSIX Payloads
+# https://www.esentire.com/blog/fin7-uses-trusted-brands-and-sponsored-google-ads-to-distribute-msix-payloads
+sun47281.space
+storageplace.pro
+sun1.space
+cdn41.space
+cdn46.space
+
+# CISA: Black Basta
+# https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-131a
+airbusco.net
+allcompanycenter.com
+animalsfast.net
+artspathgroup.net
+artspathgroupe.net
+artstrailman.com
+artstrailreviews.com
+audsystemecll.net
+auuditoe.com
+bluenetworking.net
+brendonline.com
+businesforhome.com
+businessprofessionalllc.com
+buyblocknow.com
+buygreenstudio.com
+caspercan.com
+childrensdolls.com
+clearsystemwo.net
+cloudworldst.net
+constrtionfirst.com
+consulheartinc.com
+currentbee.net
+erihudeg.com
+garbagemoval.com
+gartenlofti.com
+getfnewsolutions.com
+getfnewssolutions.com
+investmendvisor.net
+investmentgblog.net
+investmentrealtyhp.net
+investrealtydom.net
+ionoslaba.com
+jenshol.com
+jessvisser.com
+karmafisker.com
+kekeoamigo.com
+kolinileas.com
+limitedtoday.com
+magentoengineers.com
+maluisepaul.com
+masterunix.net
+modernbeem.net
+monitor-websystem.net
+monitorsystem.net
+myfinancialexperts.com
+mytrailinvest.net
+nebraska-lawyers.com
+oneblackwood.com
+onedogsclub.com
+ontexcare.com
+otxcarecosmetics.com
+otxcosmeticscare.com
+prettyanimals.net
+protectionek.com
+rasapool.net
+realbumblebee.net
+recentbee.net
+recentbeelive.com
+reelsysmoona.net
+securecloudmanage.com
+seohomee.com
+septcntr.com
+simorten.com
+softradar.net
+specialdrills.com
+startupbizaud.net
+startupbusiness24.net
+startupbuss.com
+startupmartec.net
+startuptechnologyw.net
+steamteamdev.net
+stockinvestlab.net
+taskthebox.net
+technologgies.com
+thesmartcloudusa.com
+thetrailbig.net
+tomlawcenter.com
+topglobaltv.com
+trackgroup.net
+trailcocompany.com
+trailcosolutions.com
+trailgroupl.net
+trailshop.net
+treeauwin.net
+unitedfrom.com
+unougn.com
+usaglobalnews.com
+wardeli.com
+webnubee.com
+welausystem.net
+wellsystemte.net
+wipresolutions.com
+withclier.com
+
