@@ -1,3 +1,6 @@
+# [ STS ]
+/(^|^.*\.)sts.kz$/
+/(^|^.*\.)мтқ.қаз$/
 # [ Common ]
 /(^|^.*\.)comagic.ru$/
 /(^|^.*\.)apps.corel.com$/
