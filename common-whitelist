@@ -1,0 +1,124 @@
+# [ Common ]
+/(^|^.*\.)comagic.ru$/
+/(^|^.*\.)apps.corel.com$/
+/(^|^.*\.)datadoghq.com$/
+/(^|^.*\.)digicert.com$/
+/(^|^.*\.)gov.(kz|by|ru|uz|kg|uk|cn|it)$/
+/(^|^.*\.)gov$/
+/(^|^.*\.)intercom.io$/
+/(^|^.*\.)jivosite.com$/
+/(^|^.*\.)lastpass.com$/
+/(^|^.*\.)licdn.com$/
+/(^|^.*\.)linkedin.com$/
+/(^|^.*\.)nessus.org$/
+/(^|^.*\.)openbld.net$/
+/(^|^.*\.)pikabu.ru$/
+/(^|^.*\.)qualtrics.com$/
+/(^|^.*\.)raiffeisen\.(ru|ua)$/
+/(^|^.*\.)sentry.io$/
+/(^|^.*\.)shodan.io$/
+/(^|^.*\.)smoot.apple.com$/
+/(^|^.*\.)symcb.com$/
+/(^|^.*\.)symcd.com$/
+/(^|^.*\.)sys-adm.in$/
+/(^|^.*\.)uptimerobot.com$/
+/(^|^.*\.)verisign.com/
+/(^|^.*\.)voidboost.cc$/
+/(^|^.*\.)wialon.com$/
+/(^|^.*\.)weather.com$/
+/(^|^.*\.)vmware.com$/
+
+# [ Banks ]
+/(^|^.*\.)kaspi.(kz)$/
+/(^|^.*\.)halykbank.(kz)$/
+/(^|^.*\.)bankrbk.(kz)$/
+/(^|^.*\.)bcc.(kz)$/
+/(^|^.*\.)forte.(kz)$/
+/(^|^.*\.)bankffin.(kz)$/
+/(^|^.*\.)mykassa.(kz)$/
+/(^|^.*\.)nurbank.(kz)$/
+/(^|^.*\.)nurbank24.(kz)$/
+/(^|^.*\.)hcsbk.(kz)$/
+/(^|^.*\.)nurbank24.(kz)$/
+/(^|^.*\.)nationalbank.(kz)$/
+
+# [ Mobile banking]
+/(^|^.*\.)aaplimg.com$/
+/(^|^.*\.)appsflyersdk.com$/
+/(^|^.*\.)appsflyer.com$/
+/(^|^.*\.)sustainalytics.com$/
+/^firebase.*.googleapis.com$/
+/^firebase.*.crashlytics.com$/
+
+# [ Payments]
+/(^|^.*\.)swift.com$/
+/(^|^.*\.)dynatrace.com$/
+/(^|^.*\.)westernunion.com$/
+/(^|^.*\.)1xbet.(kz|com)$/
+
+# [ Filters ]
+/(^|^.*\.)oisd.nl$/
+
+# [ Clouds / Nets ]
+/^.*-cdn.tinkoffjournal.ru$/
+/^api\..*.apple.com$/
+/^app.([a-z]).seagate.com$/
+/^cdn\d.edgedatg.com$/
+/^data.em[0-9].cloudflare.com$/
+/^ovh.commander[0-9]{1,2}.com$/
+/^sf[0-9]{2,}-website-login.neutral.ttwstatic.com$/
+/avatars(|\d).githubusercontent.com$/
+/clients(\d{0,2}).google.com$/
+/img(|[\d]).imgsmail.ru$/
+/ns[1-2].dropbox.com$/
+/rtc-cloud-[a-z]{2,}[1-9].bitrix.info$/
+/static[1-9].tinkoffjournal.ru$/
+
+# [ Media ]
+/^baskino.me$/
+/^data[0-9]{2,}-cdn.datalock.ru$/
+/^rezka.([a-c]{2})$/
+/^static.([d-h]{2})rezka.([a-c]{2})$/
+/^voidboost.net$/
+/(^|^.*\.)kahoot.(com|it)$/
+
+# [ MS ]
+/v[1-9\d]{0,2}.events.data.microsoft.com$/
+# https://docs.microsoft.com/en-us/azure/security/fundamentals/azure-domains
+# TODO: revies - https://learn.microsoft.com/en-us/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide
+/(^|^.*\.)azure.com$/
+/(^|^.*\.)visualstudio.com$/
+/(^|^.*\.)windows.net$/
+/.*.events.data.microsoft.com$/
+/.*.livediagnostics.monitor.azure.com$/
+/^.*.azure-api.net$/
+/^.*.azure-mobile.net$/
+/^.*.azurecr.io$/
+/^.*.azureedge.net$/
+/^.*.azurefd.net$/
+/^.*.trafficmanager.net$/
+/^.*.vo.msecnd.net$/
+/^r[1-9].res.office365.com$/
+
+# [ Yandex ]
+/^cloud.yandex\.(ru|com|net)$/
+/.*strm.yandex\.(ru|com|net)$/
+/^music.yandex\.(ru|com|net)$/
+/^business.yandex\.(ru|com|net)$/
+/.*passport.yandex\.(ru|com|net)$/
+/.*mail.yandex\.(ru|com|net)$/
+/.*admin.yandex\.(ru|com|net)$/
+/.*.qloud-[abc]\.(ru|com|net)$/
+# /^.*\.yandex.([c-u]{2,3})$/
+
+# Ad checkers
+/(^|^.*\.)succeedscene.com$/
+
+# [ Roots ]
+/^[a-m].root-servers.net$/
+
+# [ Other ]
+/(^|^v[n-p]{2,}\.)bespoyasko.kz$/
+
+# [ Tests ]
+/(^|^.*\.)cloudfront.net$/
