@@ -34,20 +34,20 @@
 #bing
 204.79.197.220 bing.com www.bing.com #+
 #duckduckgo
-40.114.177.246 duckduckgo.com
+40.114.177.246 duckduckgo.com www.duckduckgo.com
 
 #------------------------------------------------------------------------------
 #НЕ ПРОТЕСТИРОВАНЫ ДО КОНЦА
 #Маил и Рамблер
-94.100.180.61 www.mail.ru #account.mail.ru
-94.100.180.61 mail.ru #account.mail.ru
-94.100.180.61 go.mail.ru www.go.mail.ru
-94.100.180.61 news.mail.ru www.news.mail.ru kino.mail.ru www.kino.mail.ru
-94.100.180.61 lady.mail.ru www.lady.mail.ru
-81.19.78.84 www.rambler.ru #mail.rambler.ru
-81.19.78.84 rambler.ru #mail.rambler.ru
-81.19.78.84 r0.ru www.r0.ru
-81.19.78.84 images.rambler.ru www.images.rambler.ru kino.rambler.ru www.kino.rambler.ru
+#94.100.180.61 www.mail.ru #account.mail.ru
+#94.100.180.61 mail.ru #account.mail.ru
+#94.100.180.61 go.mail.ru www.go.mail.ru
+#94.100.180.61 news.mail.ru www.news.mail.ru kino.mail.ru www.kino.mail.ru
+#94.100.180.61 lady.mail.ru www.lady.mail.ru
+#81.19.78.84 www.rambler.ru #mail.rambler.ru
+#81.19.78.84 rambler.ru #mail.rambler.ru
+#81.19.78.84 r0.ru www.r0.ru
+#81.19.78.84 images.rambler.ru www.images.rambler.ru kino.rambler.ru www.kino.rambler.ru
 
 #другие поисковики
 
